@@ -35,6 +35,9 @@ module.exports = {
         // Complex site-specific row configuration
         'layout': '60px auto auto 55px',
       },
+      height: theme => ({
+        ascreen: '95vh',
+      }),
       variants: {},
       plugins: [],
     }

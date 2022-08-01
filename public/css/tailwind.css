@@ -666,6 +666,10 @@ video {
   display: grid;
 }
 
+.h-ascreen{
+  height: 95vh;
+}
+
 .h-screen{
   height: 100vh;
 }
