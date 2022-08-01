@@ -51,7 +51,7 @@ async function handleFormSubmit(e) {
   } else {
     contactBtn.innerHTML = contactBtnOptions.failure;
     setTimeout(() => {
-      window.location.href = `/index.html`
+      window.location.href = `/`
     }, 500)
   }
 }
