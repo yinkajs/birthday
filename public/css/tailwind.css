@@ -667,11 +667,7 @@ video {
 }
 
 .h-ascreen{
-  height: 95vh;
-}
-
-.h-screen{
-  height: 100vh;
+  height: 92vh;
 }
 
 .w-full{
@@ -813,6 +809,11 @@ video {
 
 .p-2{
   padding: 0.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-3{
