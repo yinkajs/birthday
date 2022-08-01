@@ -51,7 +51,7 @@ async function handleFormSubmit(e) {
   } else {
     contactBtn.innerHTML = contactBtnOptions.failure;
     setTimeout(() => {
-      window.location.href = `/public/index.html`
+      window.location.href = `/index.html`
     }, 500)
   }
 }
@@ -59,7 +59,7 @@ async function handleFormSubmit(e) {
 // page redirect
 
 function pageRedirect() {
-  window.location.href = `/public/birthday-page.html`
+  window.location.href = `/birthday-page.html`
 }
 // event listener form submit
 contactForm.addEventListener('submit', handleFormSubmit);
