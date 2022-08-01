@@ -7,7 +7,7 @@
     "tailwindcss": "^3.1.7"
   },
   "scripts": {
-    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/css/tailwind.css --watch"
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/css/tailwind.css"
   },
   "keywords": [],
   "author": "",
