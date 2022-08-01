@@ -19,7 +19,7 @@ $('document').ready(function () {
 	});
 
 	$('#turn_on').click(function () {
-		$('.greet').fadeOut('slow').delay(5000);
+		$('.greet').fadeOut('fast');
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
 		$('#bulb_red').addClass('bulb-glow-red');
 		$('#bulb_blue').addClass('bulb-glow-blue');

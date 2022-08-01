@@ -36,7 +36,7 @@ module.exports = {
         'layout': '60px auto auto 55px',
       },
       height: theme => ({
-        ascreen: '95vh',
+        ascreen: '94vh',
       }),
       variants: {},
       plugins: [],
