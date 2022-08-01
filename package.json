@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/css/tailwind.css",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
