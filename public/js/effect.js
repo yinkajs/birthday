@@ -185,7 +185,7 @@ $('document').ready(function () {
 						$('.cake').fadeIn('slow').delay(1300);
 						setTimeout(() => {
 							window.location.href = `/`
-						  }, 1300)
+						}, 1300)
 					});
 
 				}
