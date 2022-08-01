@@ -859,6 +859,16 @@ video {
   padding-right: 0.75rem;
 }
 
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -977,6 +987,36 @@ video {
 .verifying{
   border:none;
   justify-content: center;
+}
+
+.placeholder\:text-xl::-moz-placeholder{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.placeholder\:text-xl:-ms-input-placeholder{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.placeholder\:text-xl::placeholder{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.placeholder\:text-sm::-moz-placeholder{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:text-sm:-ms-input-placeholder{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:text-sm::placeholder{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .placeholder\:text-white::-moz-placeholder{
