@@ -27,7 +27,7 @@ $('document').ready(function () {
 		$('#bulb_pink').addClass('bulb-glow-pink');
 		$('#bulb_orange').addClass('bulb-glow-orange');
 		$('body').addClass('peach');
-		$(this).fadeOut('slow').delay(7000).promise().done(function () {
+		$(this).fadeOut('slow').delay(6000).promise().done(function () {
 			$('#play').fadeIn('slow');
 		});
 	});
@@ -182,10 +182,10 @@ $('document').ready(function () {
 				$("p:nth-child(" + i + ")").fadeIn('slow').delay(1500);
 				if (i == 50) {
 					$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-						$('.cake').fadeIn('slow').delay(1300);
+						$('.cake').fadeIn('slow').delay(1500);
 						setTimeout(() => {
 							window.location.href = `/`
-						}, 1300)
+						}, 1500)
 					});
 
 				}
