@@ -621,8 +621,8 @@ video {
   padding: 0.25rem;
 }
 
-.p-5{
-  padding: 1.25rem;
+.p-4{
+  padding: 1rem;
 }
 
 .p-2{
@@ -639,7 +639,7 @@ video {
 }
 
 .font-body{
-  font-family: Nunito;
+  font-family: Work Sans;
 }
 
 .text-3xl{
