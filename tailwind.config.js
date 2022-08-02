@@ -26,7 +26,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        body: ['Nunito']
+        body: ['Work Sans']
       },
       gridTemplateRows: {
         // Simple 8 row grid
