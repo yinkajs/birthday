@@ -25,6 +25,9 @@ module.exports = {
           "2xl": "6rem",
         }
       },
+      animation: {
+        'blink': 'blink 0.8s infinite'
+      },
       fontFamily: {
         body: ['Nunito']
       },
