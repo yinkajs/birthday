@@ -180,7 +180,7 @@ $('document').ready(function () {
 			$("p:nth-child(" + i + ")").fadeOut('slow').delay(900).promise().done(function () {
 				i = i + 1;
 				$("p:nth-child(" + i + ")").fadeIn('slow').delay(1500);
-				if (i == 50) {
+				if (i == 52) {
 					$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 						$('.cake').fadeIn('slow').delay(1500);
 						setTimeout(() => {
