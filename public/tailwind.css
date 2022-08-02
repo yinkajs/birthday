@@ -579,10 +579,6 @@ video {
   display: flex;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .h-ascreen{
   height: 92vh;
 }
@@ -643,7 +639,7 @@ video {
 }
 
 .font-body{
-  font-family: Work Sans;
+  font-family: Nunito;
 }
 
 .text-3xl{
